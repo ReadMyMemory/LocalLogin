@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>로그인</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+<div class="login-wrapper">
+    <h2>Login</h2>
+    <form method="post" action="/auth/login" id="login-form">
+        <input type="text" name="userName" placeholder="Email">
+        <input type="password" name="userPassword" placeholder="Password">
+        <label for="remember-check">
+            <input type="checkbox" id="remember-check">아이디 저장하기
+        </label>
+        <button class ="login" onclick="location.href='main.html' ">login</button>
+        <button class ="register" onclick="location.href='join.html' ">register</button>
+    </form>
+</div>
+</body>
+</html>
