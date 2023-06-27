@@ -10,6 +10,5 @@ exports.renderMain = (req, res, next) => {
     const twits = [];
     res.render('layout', {
         title: 'savvy',
-        twits,
     });
 };
